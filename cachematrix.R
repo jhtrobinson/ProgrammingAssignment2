@@ -40,7 +40,6 @@ makeCacheMatrix <- function(x = matrix()) {
 ## inverse using solve(), cache the inverse and return it.
 
 cacheSolve <- function(x, ...) {
-message("hello")
     ## return the cached inverse if it exists
     inv <- x$getInverse()
     if(!is.null(inv)){
